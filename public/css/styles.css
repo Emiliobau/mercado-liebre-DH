@@ -64,12 +64,19 @@ img{
   justify-content:space-evenly;
 
 }
+
 .barraNavegacionAbajo ul{
   display: flex;
   list-style: none;
 
 }
 
+.navegacion-Izquierda{
+  padding-left: 5px;
+}
+.navegacion-Derecha{
+  padding-left: 5px;
+}
 
 .navegacion-Izquierda li{
   margin: 5px
@@ -80,14 +87,12 @@ img{
 
 }
 .barraBusqueda{
-
+  display: flex;
   width: 200px;
   background-color:white;
   height:30px;
-
-
   margin-left: 10px ;
-
+  align-items: center;
 }
 
 .buscador{
@@ -98,6 +103,7 @@ img{
 
   background-color: white;
   height: 20px;
+
 }
 
 
@@ -134,17 +140,22 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+footer i:hover{
+  color: #EAC926;
 
+}
 footer i{
   color:#0f62bb;;
   font-size: 2em;
   margin-bottom: 10px;
+  transition: color 450ms;
 }
 .tituloSeccion{
   font-weight: bold;
   font-size:22px;
-  text-align: center;
+  text-align: left;
   padding:5px 0px;
+  margin-left: 40px;
   margin-bottom: 10px;
 
 }
@@ -159,11 +170,17 @@ footer i{
   justify-content:space-around
 }
 
+.producto:hover{
+  box-shadow: 0px 0px 50px rgb( 100 , 100 , 100 );
+
+}
 .producto{
 
   background-color:white;
   margin: 5px;
   border: 10px solid rgb(221, 208, 208);
+  box-shadow : 0px 0px 0px rgb( 100 , 100 , 100 );
+  transition: box-shadow 450ms;
 }
 
 .contenedorProductos{
@@ -187,8 +204,8 @@ main section  i{
  display: block;
  font-size: 16px;
  padding: 5px;
- width: 25px;
- height: 25px;
+ width: 30px;
+ height: 30px;
  border: 1px solid #39b54a;
  background-color: #FFF;
  border-radius: 50%;
@@ -244,13 +261,32 @@ font-size: 20px;
   height: 30px;
   margin-bottom: 20px;
 }
+.button-login:hover{
+  background-color: #0022AA;
+}
+
 .button-login{
   width: 70%;
   height: 30px;
   background-color:#0f62bb;
   color: white;
+  transition: background-color 450ms;
 
 }
+.nombreProducto:hover{
+  opacity: 1;
+  font-size: 18px;
+}
+
+.nombreProducto{
+  opacity: 0;
+  font-size:14px;
+  transition: opacity 450ms;
+  transition:font-size 450ms;
+
+}
+
+
 
 
 
@@ -289,5 +325,18 @@ font-size: 20px;
 }
 .compracuotas{
   max-width: none;
+}
+.footer-contenedor{
+  display: flex;
+  justify-content:space-between
+}
+footer h2{
+  font-size:20px
+}
+.footer-copyright{
+  text-align: left;
+}
+.barraNavegacionAbajo ul li{
+  padding: 10px;
 }
 }
