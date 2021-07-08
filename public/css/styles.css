@@ -12,8 +12,8 @@ header{
   font-family: 'Roboto', sans-serif;
   background-color:#EAC926 ;
   display: inline-block
-
 }
+
 .baner{
   display:inline-block
 }
@@ -33,7 +33,7 @@ img{
 
 .burger-menu{
   color:white;
-  font-size: 48px;
+  font-size: 30px;
   padding: 5px;
   text-align: center;
 }
@@ -42,14 +42,11 @@ img{
   background-color:#03264C;
   padding: 5px;
   border-radius: 20%;
-
 }
 
 .logoML{
-
   padding: 10px;
   margin: 10px;
-
   }
 
 .barraNavegacion{
@@ -57,19 +54,16 @@ img{
   align-items: center;
   justify-content:space-around;
   flex-wrap: wrap;
-
 }
 
 .barraNavegacionAbajo{
   display: flex;
   justify-content:space-evenly;
-
 }
 
 .barraNavegacionAbajo ul{
   display: flex;
   list-style: none;
-
 }
 
 .navegacion-Izquierda{
@@ -85,8 +79,8 @@ img{
 
 .navegacion-Derecha li{
   margin: 5px
-
 }
+
 .barraBusqueda{
   display: flex;
   width: 200px;
@@ -101,10 +95,8 @@ img{
 }
 
 .iconos{
-
   background-color: white;
   height: 20px;
-
 }
 
 
@@ -116,7 +108,6 @@ h1{
 .precio{
   font-size: 18px;
   width: 30%;
-
 }
 
 .descuentodescripcion {
@@ -129,11 +120,9 @@ h1{
 a{
   text-decoration: none;
   color: black;
-
 }
 
 .enlaces{
-
   list-style: none;
 }
 
@@ -141,16 +130,18 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+
 footer i:hover{
   color: #EAC926;
-
 }
+
 footer i{
   color:#0f62bb;;
   font-size: 2em;
   margin-bottom: 10px;
   transition: color 450ms;
 }
+
 .tituloSeccion{
   font-weight: bold;
   font-size:22px;
@@ -158,13 +149,14 @@ footer i{
   padding:5px 0px;
   margin-left: 40px;
   margin-bottom: 10px;
-
 }
+
 .ultimaCompra{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-around
 }
+
 .ofertas{
   display: flex;
   flex-wrap: wrap;
@@ -176,7 +168,6 @@ footer i{
 
 }
 .producto{
-
   background-color:white;
   margin: 5px;
   border: 10px solid rgb(221, 208, 208);
@@ -189,13 +180,13 @@ footer i{
   background-color:rgb(235, 227, 227)
 }
 
-
 .descripProducto{
 border-top: 1px solid #ebebeb;
 padding: 15px;
 font-size:10px;
 position: relative;
 }
+
 .precio-descuento{
   display: flex;
   align-items: center;
@@ -214,20 +205,23 @@ main section  i{
  top: -18px;
  color:#39b54a;
  position: absolute;
-
 }
+
 .titulo{
   font-size: 40px;
 }
+
 .main-formulario{
   display:inline-block;
   width: 100%;
   text-align:center;
   background-color:rgb(235, 227, 227)
 }
+
 .label-Invisible{
   display: none;
 }
+
 .label-visible{
   font-size: 16px;
   font-style: italic;
@@ -238,15 +232,19 @@ form div{
   margin: 10px ;
   padding: 5px;
 }
+
 .fechanacimiento{
   margin-left: 0px;
 }
+
 .control-in{
   width:50%
 }
+
 .botones{
   text-align: center;
 }
+
 .button{
 font-size: 20px;
 }
@@ -257,11 +255,13 @@ font-size: 20px;
   text-align:center;
   background-color:rgb(235, 227, 227)
 }
+
 .input-login{
   width: 70%;
   height: 30px;
   margin-bottom: 20px;
 }
+
 .button-login:hover{
   background-color: #0022AA;
 }
@@ -272,8 +272,8 @@ font-size: 20px;
   background-color:#0f62bb;
   color: white;
   transition: background-color 450ms;
-
 }
+
 .nombreProducto:hover{
   opacity: 1;
   font-size: 18px;
@@ -285,29 +285,22 @@ font-size: 20px;
   transition: opacity 450ms;
   transition:font-size 450ms;
 }
+
 .Logo-buscador{
   display: flex;
   align-items: center;
-
 }
-
-
-
-
 
 @media screen and (max-width:500px ){
   .barraNavegacionAbajo {
   display: none}
-
   .nombreProducto{
     display: none;
   }
   .compracuotas{
     font-size: 15px;
+  }
 }
-
-}
-
 
 @media screen and (min-width: 500px) {
   .burger-menu{
@@ -316,11 +309,7 @@ font-size: 20px;
   .producto{
     box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
   }
-
-
 }
-
-
 
 @media screen and (min-width: 1200px ) {
 .barraNavegacion,.barraNavegacionAbajo {
